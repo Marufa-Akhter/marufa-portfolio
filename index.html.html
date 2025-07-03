@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marufa Akhter Mim | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #5c4d7d;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      background: #eee;
+      padding: 1rem 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #5c4d7d;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #5c4d7d;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    .project, .achievement, .contact-info {
+      margin-bottom: 1.5rem;
+    }
+    footer {
+      background: #5c4d7d;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      nav a {
+        margin-bottom: 0.5rem;
+      }
+      section {
+        padding: 1rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+      .project, .achievement, .contact-info {
+        font-size: 0.95rem;
+      }
+      footer {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Marufa Akhter Mim</h1>
+    <p>Computer Science Graduate | Web Developer | Data Analyst</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I am a dynamic Computer Science graduate from Independent University, Bangladesh, passionate about web development, networking, and data analysis. I enjoy turning problems into solutions through code and teamwork.</p>
+  </section>
+  <section id="skills" data-aos="fade-right">
+    <h2>Skills</h2>
+    <p><strong>Languages:</strong> Python, JavaScript, Dart, C++, SQL/MySQL</p>
+    <p><strong>Web:</strong> HTML, CSS, PHP, Bootstrap, Flutter, Firebase</p>
+    <p><strong>Tools:</strong> Git, GitHub, Cisco Networking</p>
+    <p><strong>Soft Skills:</strong> Teamwork, Leadership, Critical Thinking, Time Management</p>
+  </section>
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>🌦️ Weather Forecast App</h3>
+      <p>A simple weather forecasting tool built using PHP and vanilla web technologies. Displays current weather conditions based on user input.</p>
+      <p><strong>Tech:</strong> PHP, HTML, CSS</p>
+      <a href="https://github.com/Marufa-Akhter/weather-forecast" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>🍲 FoodCap (Recipe Sharing App)</h3>
+      <p>Flutter-based mobile application that allows users to upload, browse, and manage recipes in real-time using Firebase.</p>
+      <p><strong>Tech:</strong> Dart, Flutter, Firebase, C++</p>
+      <a href="https://github.com/Marufa-Akhter/food_cap" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>🛍️ FootCap (E-Commerce Website)</h3>
+      <p>A responsive online shopping website designed with a clean UI. Includes product listings, cart features, and more.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JS, Bootstrap</p>
+      <a href="https://github.com/Marufa-Akhter/foot_cap" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>🚑 Emergency Ambulance Service</h3>
+      <p>A location-aware web platform offering emergency ambulance access. Features a user-friendly interface for booking and managing requests.</p>
+      <p><strong>Tech:</strong> HTML, CSS, PHP, SQL</p>
+      <a href="https://github.com/Marufa-Akhter/emergency-ambulance-service" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+  <section id="achievements" data-aos="fade-left">
+    <h2>Achievements</h2>
+    <div class="achievement">Certified AppSec Practitioner – Feb 2023</div>
+    <div class="achievement">IEEE COMPAS 2024 – Certificate of Presentation</div>
+    <div class="achievement">Geospatial IT Training – DDM</div>
+    <div class="achievement">Cisco Networking Academy – Course Completion</div>
+  </section>
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact</h2>
+    <div class="contact-info">📍 Mirpur 15, Dhaka, Bangladesh</div>
+    <div class="contact-info">📧 <a href="mailto:mim.marufa.01@gmail.com">mim.marufa.01@gmail.com</a></div>
+    <div class="contact-info">📞 01315827213</div>
+    <div class="contact-info">🔗 <a href="https://github.com/Marufa-Akhter" target="_blank">GitHub</a></div>
+    <div class="contact-info">📄 <a href="Resume of Marufa.pdf" download>Download Resume</a></div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Marufa Akhter Mim. All Rights Reserved.</p>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
